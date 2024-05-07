@@ -1,8 +1,8 @@
-# `𝑺𝐴𝑅𝐴-𝐵𝛩𝑇` 
+# `♯ЅᗩFᏒOT꙯-𝐵𝛩𝑇` 
 
 # `مرحبا بك في سارة بوت اول بوت واتساب عربي` 
 <p align="center">
-<img src="https://telegra.ph/file/2e035afe2fb8ccfd353c6.jpg" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
+<img src="https://telegra.ph/file/69a507be33367573ede29.jpg" alt="⁨♯ЅᗩFᏒOT꙯⁩" width="900"/>
 </p>
 
 ------------------
