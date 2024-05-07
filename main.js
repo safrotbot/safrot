@@ -195,7 +195,7 @@ rl.close()
         setTimeout(async () => {
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-            console.log(chalk.yellow('[ ℹ️ ] introduce el código de emparejamiento en WhatsApp.'));
+            console.log(chalk.yellow('[ ℹ♻️ ] introduce el código de emparejamiento en WhatsApp.'));
             console.log(chalk.black(chalk.bgGreen(`Su código de emparejamiento: `)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
@@ -383,8 +383,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '*⦓          ⦓🏁⦔          ⦔*\n*❤️ꪶ→ @subject*\n*🍀ꪶ→ @user*\n*💢ꪶ→مـرحـبـاً بـك فـي جـروبـنـا الـمتوضـع اتـمـنـي أن يـعـجـبـك*\n*💠ꪶ→ *اقـرا الوصف\n*⦓          ⦓🏁⦔          ⦔*\n المجموعه:*\n\n@desc\n\n*⦓          ⦓🏁⦔          ⦔*';
-  conn.bye = '*⦓          ⦓🏁⦔          ⦔*\n*🔄ꪶ→ @user*\n*ꪶ→ غادر المجموعه 💯*\n*⦓          ⦓🏁⦔          ⦔**';
+  conn.welcome = '*⦓          ⦓🔥بوت سفروت⦔          ⦔*\n*❤️ꪶ→ @subject*\n*🍀ꪶ→ @user*\n*💢ꪶ→مـرحـبـاً بـك فـي جـروبـنـا الـمتوضـع اتـمـنـي أن يـعـجـبـك*\n*💠ꪶ→ *اقـرا الوصف\n*⦓          ⦓سفروت الفقدان🔥🥵⦔          ⦔*\n المجموعه:*\n\n@desc\n\n*⦓          ⦓بوت سفروت🔥          ⦔*';
+  conn.bye = '*⦓          ⦓بوت سفروت🔥⦔          ⦔*\n*🔄ꪶ→ @user*\n*ꪶ→ غادر المجموعه 💯*\n*⦓          بوت سفروت✨🔥⦔          ⦔**';
   conn.spromote = '*[ 📌 ] @user تمت ترقيته إلى المسؤول.*';
   conn.sdemote = '*[ 📌 ] @user تم تخفيض رتبته من المسؤول.*';
   conn.sDesc = '*[ 📌 ] تم تعديل وصف المجموعه.*';
